@@ -71,8 +71,17 @@
 
 ## 오디오 프롬프트
 
-### BGM (Suno, 38초 단일 트랙)
+### 오디오 진행 상황
+| 항목 | 상태 |
+|---|---|
+| BGM (당초 Suno 예정 → Gemini로 전환, 정확한 기능명 확인 중) | ✅ 완료 |
+| 내레이션 5개 (ElevenLabs) | ⏳ 진행 예정 |
+
+*(도구 전환 사유: Suno 무료 계정은 다운로드가 불가능해 Gemini로 대체 — `docs/03_tools.md`에도 반영 예정)*
+
+### BGM (38초 단일 트랙)
 > Lo-fi ambient track, warm and calming, soft piano and gentle synth pad, slow tempo (around 70 BPM), evening relaxation mood, minimal percussion, no vocals, 38 seconds
+- **출력 결과 요약**: 프롬프트대로 생성 완료 (세부 검토는 편집 단계에서 진행)
 
 ### 내레이션 스크립트 (ElevenLabs, 한국어, 차분한 톤)
 1. (씬1) "오늘 하루도, 켜둔 채 잊고 있던 마음."
