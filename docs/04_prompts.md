@@ -92,7 +92,7 @@
 
 - **실제 생성 방식**: 5개 대사를 씬별로 나누지 않고 **하나의 통 오디오 파일**로 생성 → 편집 단계에서 타임코드에 맞춰 잘라 배치 필요 (`docs/05_editing_plan.md` 오디오 레이어링 절차 갱신 필요)
 - **출력 결과 요약**: 생성 완료 (검토 대기)
-- **결과 파일명**: `assets/bgm_track` (BGM), `assets/narration_full` (통합 내레이션)
+- **결과 파일명**: `assets/bgm_track.mp3` (BGM), `assets/narration_full.mp3` (통합 내레이션)
 
 ---
 
