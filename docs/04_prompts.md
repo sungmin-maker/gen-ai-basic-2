@@ -27,8 +27,8 @@
   > A cluttered living room right after someone came home from work, a coat and bag left near the door, shoes kicked off, cold white fluorescent light, evening blue-toned atmosphere outside the window, warm amber tone accent, cinematic lighting, 35mm lens, shallow depth of field, minimal Korean apartment interior, empty room, no people
 - **입력 프롬프트(영상, Veo / text-to-video)**:
   > A cluttered living room right after someone came home from work, a coat and bag left near the door, shoes kicked off, cold white fluorescent light, evening blue-toned atmosphere outside the window, cinematic lighting, 35mm lens, shallow depth of field, minimal Korean apartment interior, empty room, no people. Slow subtle push-in camera movement, very slight ambient dust particles in the cold light, 8 seconds, no camera shake
-- **출력 결과 요약**: (생성 후 기록)
-- **결과 파일명**: `scene01_key.png` / `scene01_motion.mp4`
+- **출력 결과 요약**: (검토자 확인) 인물 없이 코트·가방·신발만으로 "방금 퇴근한 흔적"이 잘 표현됨, 차가운 형광등 조명과 창밖 저녁 하늘 톤도 의도대로 재현됨
+- **결과 파일명**: `assets/scene01_key.png` / `assets/scene01_motion.mp4`
 
 ## 씬 2 — 전환의 시작 / 6초
 - **사용 도구**: Gemini(Imagen) — 제품 클로즈업 / Gemini(Veo, text-to-video) — 다이얼 회전 모션
@@ -37,7 +37,7 @@
 - **입력 프롬프트(영상, Veo / text-to-video)**:
   > Close-up of a hand slowly turning a minimalist dial on a smart mood-light and scent diffuser device, warm amber tone starting to glow, cinematic lighting, 35mm lens, shallow depth of field, minimal Korean apartment interior. Hand turns the dial slowly and deliberately, macro lens feel, light on the device gradually brightens as the dial turns, 6 seconds
 - **출력 결과 요약**: (생성 후 기록)
-- **결과 파일명**: `scene02_key.png` / `scene02_motion.mp4`
+- **결과 파일명**: `assets/scene02_key.png` / `assets/scene02_motion.mp4`
 
 ## 씬 3 — 변화(라이트 & 스캔트) / 8초 *(기존 10초 → Veo 클립 상한 8초에 맞춰 조정)*
 - **사용 도구**: Gemini(Imagen) — 조명 전환 장면 / Gemini(Veo, text-to-video) — 색온도 전환 + 연기 확산 모션
@@ -45,8 +45,8 @@
   > Wide shot of a living room where cold white light is transforming into warm amber light, soft scent smoke/particles diffusing gently in the air, visible light gradient across the room, cinematic lighting, 35mm lens, shallow depth of field, minimal Korean apartment interior, warm amber tone, keep same style as previous images, no visible face
 - **입력 프롬프트(영상, Veo / text-to-video)**:
   > Wide shot of a living room where cold white light is transforming into warm amber light, soft scent smoke/particles diffusing gently in the air, cinematic lighting, 35mm lens, shallow depth of field, minimal Korean apartment interior, no visible face. Smooth transition of light color temperature from cool white to warm amber across 8 seconds, scent particles slowly drifting and diffusing in the light beam, gentle camera drift
-- **출력 결과 요약**: 프롬프트 수정 없이 1회 생성, 조명이 차가운 톤에서 앰버 톤으로 자연스럽게 전환됨 (제작자 육안 확인 기준)
-- **결과 파일명**: `scene03_key.png` / `scene03_motion.mp4`
+- **출력 결과 요약**: (검토자 확인) 프롬프트 수정 없이 1회 생성. 창밖 차가운 블루 톤과 실내 앰버 조명이 한 프레임 안에서 대비되며 전환을 표현, 연기/빛 입자 효과도 자연스러움. 인물은 얼굴이 보이지 않는 실루엣으로만 등장해 일관성 전략에 부합
+- **결과 파일명**: `assets/scene03_key.png` / `assets/scene03_motion.mp4`
 
 ## 씬 4 — 체감(휴식) / 8초 *(기존 12초 → Veo 클립 상한 8초에 맞춰 조정)*
 - **사용 도구**: Gemini(Imagen) — 인물 휴식 장면 / Gemini(Veo, text-to-video) — 미세한 호흡/움직임 느낌의 정적 모션
@@ -55,7 +55,7 @@
 - **입력 프롬프트(영상, Veo / text-to-video)**:
   > A person relaxing comfortably on a sofa under warm amber light, holding a warm cup, peaceful posture, back view or silhouette only (no visible face), cinematic lighting, 35mm lens, shallow depth of field, minimal Korean apartment interior, warm amber tone. Very subtle breathing motion, soft ambient light flicker from the diffuser, slow gentle zoom out, calm and still overall, 8 seconds
 - **출력 결과 요약**: (생성 후 기록)
-- **결과 파일명**: `scene04_key.png` / `scene04_motion.mp4`
+- **결과 파일명**: `assets/scene04_key.png` / `assets/scene04_motion.mp4`
 
 ## 씬 5 — 아웃트로(브랜드/CTA) / 8초
 - **사용 도구**: Gemini(Imagen) — 로고/제품 실루엣 구도 / Gemini(Veo, text-to-video) — 페이드인 모션
@@ -64,8 +64,8 @@
   > Dark minimal background with the Lumin device silhouette glowing warm amber light in the center, soft bokeh light particles, cinematic product photography style, 35mm lens, shallow depth of field, warm amber tone, consistent with previous scenes, empty negative space on the right side for text overlay
 - **입력 프롬프트(영상, Veo / text-to-video)**:
   > Dark minimal background with a smart mood-light and scent diffuser device silhouette glowing warm amber light in the center, soft bokeh light particles, cinematic product photography style, 35mm lens, shallow depth of field, warm amber tone. Slow fade-in of the glowing device from darkness, gentle light pulse, 8 seconds, static camera
-- **출력 결과 요약**: 프롬프트 수정 없이 1회 생성, 어두운 배경에 기기 실루엣이 은은하게 페이드인하며 우측 여백(텍스트 오버레이용)도 의도대로 확보됨 (제작자 육안 확인 기준)
-- **결과 파일명**: `scene05_key.png` / `scene05_motion.mp4`
+- **출력 결과 요약**: (검토자 확인) 프롬프트 수정 없이 1회 생성. 어두운 배경에 기기 실루엣이 따뜻한 앰버 빛으로 은은하게 부각되고, 보케 빛 입자와 우측 여백(텍스트 오버레이용)도 의도대로 확보됨. ⚠️ 우측 하단에 작은 워터마크로 추정되는 별 모양 아이콘이 포착됨 — 편집 단계에서 크롭 또는 가리기 필요
+- **결과 파일명**: `assets/scene05_key.png` / `assets/scene05_motion.mp4`
 
 ---
 
