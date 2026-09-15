@@ -7,9 +7,9 @@
 |---|---|---|---|
 | 1 | ✅ 완료 | ✅ 완료 (텍스트 전용 프롬프트로 성공) | 트러블슈팅 사례 확보 |
 | 2 | ⏳ 대기 | ⏳ 대기 | 프롬프트 확정, 생성 예정 |
-| 3 | ⏳ 예정(오늘) | ⏳ 예정(오늘) | 오늘 남은 생성 횟수 사용 |
+| 3 | ✅ 완료 | ✅ 완료 | 프롬프트 수정 없이 1회 성공 |
 | 4 | ⏳ 대기 | ⏳ 대기 | 프롬프트 확정, 생성 예정 |
-| 5 | ⏳ 예정(오늘) | ⏳ 예정(오늘) | 오늘 남은 생성 횟수 사용 |
+| 5 | ✅ 완료 | ✅ 완료 | 프롬프트 수정 없이 1회 성공 |
 
 ## 사용 방법 (일관성 유지 절차)
 1. **같은 Gemini 대화(채팅) 세션**에서 씬1 → 씬5 순서대로 이미지를 생성한다 (세션을 바꾸지 않는다).
@@ -45,7 +45,7 @@
   > Wide shot of a living room where cold white light is transforming into warm amber light, soft scent smoke/particles diffusing gently in the air, visible light gradient across the room, cinematic lighting, 35mm lens, shallow depth of field, minimal Korean apartment interior, warm amber tone, keep same style as previous images, no visible face
 - **입력 프롬프트(영상, Veo / text-to-video)**:
   > Wide shot of a living room where cold white light is transforming into warm amber light, soft scent smoke/particles diffusing gently in the air, cinematic lighting, 35mm lens, shallow depth of field, minimal Korean apartment interior, no visible face. Smooth transition of light color temperature from cool white to warm amber across 8 seconds, scent particles slowly drifting and diffusing in the light beam, gentle camera drift
-- **출력 결과 요약**: (생성 후 기록)
+- **출력 결과 요약**: 프롬프트 수정 없이 1회 생성, 조명이 차가운 톤에서 앰버 톤으로 자연스럽게 전환됨 (제작자 육안 확인 기준)
 - **결과 파일명**: `scene03_key.png` / `scene03_motion.mp4`
 
 ## 씬 4 — 체감(휴식) / 8초 *(기존 12초 → Veo 클립 상한 8초에 맞춰 조정)*
@@ -64,7 +64,7 @@
   > Dark minimal background with the Lumin device silhouette glowing warm amber light in the center, soft bokeh light particles, cinematic product photography style, 35mm lens, shallow depth of field, warm amber tone, consistent with previous scenes, empty negative space on the right side for text overlay
 - **입력 프롬프트(영상, Veo / text-to-video)**:
   > Dark minimal background with a smart mood-light and scent diffuser device silhouette glowing warm amber light in the center, soft bokeh light particles, cinematic product photography style, 35mm lens, shallow depth of field, warm amber tone. Slow fade-in of the glowing device from darkness, gentle light pulse, 8 seconds, static camera
-- **출력 결과 요약**: (생성 후 기록)
+- **출력 결과 요약**: 프롬프트 수정 없이 1회 생성, 어두운 배경에 기기 실루엣이 은은하게 페이드인하며 우측 여백(텍스트 오버레이용)도 의도대로 확보됨 (제작자 육안 확인 기준)
 - **결과 파일명**: `scene05_key.png` / `scene05_motion.mp4`
 
 ---
